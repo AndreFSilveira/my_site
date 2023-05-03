@@ -1,8 +1,9 @@
 import Link from "next/link";
+import styles from "./navbar.module.css";
 
 function Navbar() {
   return (
-    <nav className="menu">
+    <nav className={styles.menu}>
       <ul>
         <li>
           <Link href="/">
@@ -10,17 +11,17 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/contato">
+          <Link href="/contact">
             <a>Contato</a>
           </Link>
         </li>
         <li>
-          <Link href="/precos">
+          <Link href="/price">
             <a>Preços</a>
           </Link>
         </li>
         <li>
-          <Link href="/servicos">
+          <Link href="/service">
             <a>Serviços</a>
           </Link>
         </li>
