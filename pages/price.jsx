@@ -69,7 +69,7 @@ const Precos = () => {
           ))}
         </div>
       </div>
-    <Layout/>
+    </Layout>
   );
 };
 
