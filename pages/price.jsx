@@ -23,7 +23,7 @@ const plans = [
 
 
 export default function Price() {
-  
+  const [selectedPlanIndex, setSelectedPlanIndex] = useState(0);
   return (
     <div className={styles.container}>
       <Head>
