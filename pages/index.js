@@ -40,7 +40,6 @@ export default function Home() {
         <h2>Experimente agora mesmo</h2>
         <a href="/price" className="btn btn-secondary">Conheça nossos Planos e Preços</a>
       </div>
-    </>
     </div>
 </Layout>
   )
