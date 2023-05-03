@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import eruda from 'eruda'
 
-export default function Contact() {
-  eruda.init();
-  eruda.show();
+export default function Service() {
+  
   return (
     <div className={styles.container}>
       <Head>
