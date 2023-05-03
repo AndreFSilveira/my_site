@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from 'next/head';
 import styles from "./navbar.module.css";
 
 function Navbar() {
