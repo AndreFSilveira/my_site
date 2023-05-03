@@ -56,7 +56,7 @@ const Precos = () => {
     <>
       <head>
         <title>Planos de Assinatura do CRM para Imobiliárias: Gerencie seus clientes e propriedades de forma eficiente e eficaz</title>
-        <meta name="description" content="Descubra nossos planos de assinatura mensal do CRM para imobiliárias e gerencie seus clientes e propriedades de forma mais eficiente e eficaz. Com recursos avançados e serviços exclusivos, nossos planos são projetados para atender às necessidades de sua imobiliária.">
+        <meta name="description" content="Descubra nossos planos de assinatura mensal do CRM para imobiliárias e gerencie seus clientes e propriedades de forma mais eficiente e eficaz. Com recursos avançados e serviços exclusivos, nossos planos são projetados para atender às necessidades de sua imobiliária." />
       </head>
       <div className={styles.container}>
         <h1>Planos de Assinatura Mensal do CRM para Imobiliárias</h1>
