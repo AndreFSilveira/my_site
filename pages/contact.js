@@ -14,7 +14,13 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      <div>
-      <h1 style={{ color: '#333', textAlign: 'center', marginTop: '50px' }}>Contato</h1>
+      <h1>Entre em Contato</h1>
+      
+      <p>A Empresa CRM Imobiliário é especializada em fornecer soluções de gerenciamento de relacionamento com o cliente para empresas do mercado imobiliário. Nossa equipe está comprometida em ajudar nossos clientes a alcançar o sucesso através de uma abordagem personalizada e focada no cliente.</p>
+
+      <p>Nosso software de CRM pode ajudar você a gerenciar contatos, imóveis, propostas e transações, tudo em um só lugar. Nós fornecemos relatórios e análises para ajudá-lo a tomar decisões de negócios informadas, e nossa equipe de suporte está disponível para ajudá-lo a aproveitar ao máximo nosso software.</p>
+
+      <p>Entre em contato conosco para saber mais sobre como podemos ajudá-lo a expandir seus negócios imobiliários com nossa tecnologia de CRM. Preencha o formulário abaixo ou envie um e-mail para a nossa equipe de atendimento em <a href="mailto:contato@empresacrmimobiliario.com">contato@empresacrmimobiliario.com</a>.</p>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
         <form style={{ width: '50%' }}>
           <div style={{ marginBottom: '20px' }}>
