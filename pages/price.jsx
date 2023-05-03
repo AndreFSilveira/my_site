@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import { useState } from 'react';
 import styles from "./precos.module.css";
-import Layout from "../components/Layout";
+import Layout from "./layout";
 
 const PrecoCard = ({ plano, preco, recursos, imagem }) => {
   return (
