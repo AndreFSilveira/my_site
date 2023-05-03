@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import eruda from 'eruda'
 
 export default function Home() {
-  eruda.init();
-  eruda.show();
+
   return (
     <div className={styles.container}>
       <Head>
