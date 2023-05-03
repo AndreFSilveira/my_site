@@ -20,7 +20,7 @@ const PrecoCard = ({ plano, preco, recursos, imagem }) => {
   );
 };
 
-const precos = [
+const precos_list = [
   {
     plano: "Básico",
     preco: "R$ 19,99/mês",
@@ -57,7 +57,7 @@ const Precos = () => {
     <div className={styles.container}>
       <h2 className={styles.titulo}>Escolha o seu plano</h2>
       <div className={styles.cardsContainer}>
-        {precos.map((preco) => (
+        {precos_list.map((preco) => (
           <PrecoCard key={preco.plano} {...preco} />
         ))}
       </div>
