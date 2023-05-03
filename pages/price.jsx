@@ -53,14 +53,22 @@ const precos_list = [
 
 const Precos = () => {
   return (
-    <div className={styles.container}>
-      <h2 className={styles.titulo}>Escolha o seu plano</h2>
-      <div className={styles.cardsContainer}>
-        {precos_list.map((preco) => (
-          <PrecoCard key={preco.plano} {...preco} />
-        ))}
+    <>
+      <head>
+        <title>Planos de Assinatura do CRM para Imobiliárias: Gerencie seus clientes e propriedades de forma eficiente e eficaz</title>
+        <meta name="description" content="Descubra nossos planos de assinatura mensal do CRM para imobiliárias e gerencie seus clientes e propriedades de forma mais eficiente e eficaz. Com recursos avançados e serviços exclusivos, nossos planos são projetados para atender às necessidades de sua imobiliária.">
+      </head>
+      <div className={styles.container}>
+        <h1>Planos de Assinatura Mensal do CRM para Imobiliárias</h1>
+        <p className="descricao">Apresentamos nossos planos de assinatura mensal para atender às necessidades das imobiliárias que desejam maximizar seus resultados. Cada plano inclui recursos avançados e serviços exclusivos para ajudar nossos clientes a gerenciar seus clientes, propriedades e vendas de maneira mais eficiente e eficaz.</p>
+        <h2 className={styles.titulo}>Escolha o seu plano</h2>
+        <div className={styles.cardsContainer}>
+          {precos_list.map((preco) => (
+            <PrecoCard key={preco.plano} {...preco} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
