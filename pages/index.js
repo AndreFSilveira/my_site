@@ -7,68 +7,74 @@ export default function Home() {
   return (
     <Layout>
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <body style={{ margin: 0 }}>
-        <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV7GHFL"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-      }}
-    />
-        <main className={styles.main}>
+      <head>
+        <title>CRM para Imobiliárias - Gestão Inteligente de Vendas e Clientes</title>
+        <meta name="description" content="O CRM para imobiliárias é a solução ideal para gerenciar vendas e clientes de forma eficiente. Conheça nossos serviços e otimize seus resultados." />
+      </head>
+      <div className="hero">
+        <div className="hero-content">
+          <h1>CRM para Imobiliárias</h1>
+          <p>Gestão Inteligente de Vendas e Clientes</p>
+          <a href="/price" className="btn btn-primary">Planos e Preços</a>
+        </div>
+      </div>
+      <div className="features">
+        <div className="feature">
+          <img src="/img/feature-1.png" alt="Integração com Portais Imobiliários" />
+          <h2>Integração com Portais Imobiliários</h2>
+          <p>Acompanhe todos os seus anúncios em um só lugar e receba automaticamente os leads gerados nos portais imobiliários.</p>
+        </div>
+        <div className="feature">
+          <img src="/img/feature-2.png" alt="Agendamento de Visitas" />
+          <h2>Agendamento de Visitas</h2>
+          <p>Organize suas visitas de forma eficiente e não perca nenhuma oportunidade de venda.</p>
+        </div>
+        <div className="feature">
+          <img src="/img/feature-3.png" alt="Acompanhamento de Negociações" />
+          <h2>Acompanhamento de Negociações</h2>
+          <p>Acompanhe o status de todas as negociações em tempo real e não deixe nenhuma oportunidade passar.</p>
+        </div>
+      </div>
+      <div className="cta">
+        <h2>Experimente agora mesmo</h2>
+        <a href="/price" className="btn btn-secondary">Conheça nossos Planos e Preços</a>
+      </div>
+      <style>
+      .hero {
+  height: 500px;
+  background-image: url('/img/hero.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-          <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
-          </h1>
+.hero-content {
+  text-align: center;
+}
 
-          <p className={styles.description}>
-            Get started by editing{' '}
-            <code className={styles.code}>pages/index.js</code>
-          </p>
+.hero-content h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
 
-          <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
-              <h3>Documentation &rarr;</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
+.hero-content p {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
 
-            <a href="https://nextjs.org/learn" className={styles.card}>
-              <h3>Learn &rarr;</h3>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
-            <a
-              href="https://github.com/vercel/next.js/tree/master/examples"
-              className={styles.card}
-            >
-              <h3>Examples &rarr;</h3>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-
-            <a
-              href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              className={styles.card}
-            >
-              <h3>Deploy &rarr;</h3>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
-          </div>
-        </main>
-      </body>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2}
+      </style>
+    </>
     </div>
 </Layout>
   )
