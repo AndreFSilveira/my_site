@@ -10,6 +10,7 @@ export default function Home() {
       <head>
         <title>CRM para Imobiliárias - Gestão Inteligente de Vendas e Clientes</title>
         <meta name="description" content="O CRM para imobiliárias é a solução ideal para gerenciar vendas e clientes de forma eficiente. Conheça nossos serviços e otimize seus resultados." />
+        <link rel="stylesheet" href="/default.css" />
       </head>
       <div className="hero">
         <div className="hero-content">
@@ -39,41 +40,6 @@ export default function Home() {
         <h2>Experimente agora mesmo</h2>
         <a href="/price" className="btn btn-secondary">Conheça nossos Planos e Preços</a>
       </div>
-      <style>
-      .hero {
-  height: 500px;
-  background-image: url('/img/hero.jpg');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-content {
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 5rem;
-  margin-bottom: 20px;
-}
-
-.hero-content p {
-  font-size: 2rem;
-  margin-bottom: 50px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transition: all 0.2}
-      </style>
     </>
     </div>
 </Layout>
