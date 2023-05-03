@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Layout from './layout'
 
 export default function Service() {
   
   return (
+    <Layout>
     <div className={styles.container}>
       <Head>
         
@@ -40,5 +42,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         </a>
       </footer>
     </div>
+</Layout>
   )
 }
