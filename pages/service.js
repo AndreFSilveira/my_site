@@ -6,35 +6,24 @@ export default function Service() {
   
   return (
     <Layout>
-    <div className={styles.container}>
-      <Head>
-        <title>Service</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <body style={{ margin: 0 }}>
-        <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV7GHFL"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-      }}
-    />
-        <main className={styles.main}>
-
-          <h1 className={styles.title}>
-            serviço
-          </h1>
-        </main>
-      </body>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-</Layout>
+      <head>
+        <title>CRM Imobiliário - Serviços</title>
+        <meta name="description" content="Descubra como nosso CRM pode ajudar sua empresa imobiliária a aumentar a produtividade e a eficiência!" />
+      </head>
+      <div style={{maxWidth: '800px', margin: '0 auto'}}>
+        <p style={{fontSize: '1.2rem', textAlign: 'justify'}}>
+          Com nosso sistema, você pode gerenciar todas as etapas do processo imobiliário, desde a prospecção de clientes até a assinatura do contrato. Nosso CRM foi projetado especificamente para atender às necessidades do setor imobiliário, com recursos como:
+        </p>
+        <ul>
+          <li style={{fontSize: '1.1rem'}}>Gerenciamento de leads: acompanhe todos os seus clientes em potencial em um só lugar</li>
+          <li style={{fontSize: '1.1rem'}}>Agenda integrada: organize seus compromissos e não perca mais nenhuma visita ou reunião</li>
+          <li style={{fontSize: '1.1rem'}}>Automação de marketing: envie campanhas personalizadas para seus clientes e aumente as conversões</li>
+          <li style={{fontSize: '1.1rem'}}>Relatórios detalhados: tenha uma visão completa do desempenho do seu negócio e tome decisões mais informadas</li>
+        </ul>
+        <p style={{fontSize: '1.2rem', textAlign: 'justify'}}>
+          Além disso, nossa equipe de suporte está sempre pronta para ajudá-lo em todas as etapas do processo, desde a configuração inicial até o treinamento dos usuários. Se você quer aumentar a eficiência e a produtividade da sua empresa imobiliária, entre em contato conosco hoje mesmo e descubra como nosso CRM pode ajudá-lo a alcançar seus objetivos.
+        </p>
+      </div>
+    </Layout>
   )
 }
