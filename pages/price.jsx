@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import { useState } from 'react';
 import styles from "./precos.module.css";
+import Layout from "../components/Layout";
 
 const PrecoCard = ({ plano, preco, recursos, imagem }) => {
   return (
@@ -53,7 +54,7 @@ const precos_list = [
 
 const Precos = () => {
   return (
-    <>
+    <Layout>
       <head>
         <title>Planos de Assinatura do CRM para Imobiliárias: Gerencie seus clientes e propriedades de forma eficiente e eficaz</title>
         <meta name="description" content="Descubra nossos planos de assinatura mensal do CRM para imobiliárias e gerencie seus clientes e propriedades de forma mais eficiente e eficaz. Com recursos avançados e serviços exclusivos, nossos planos são projetados para atender às necessidades de sua imobiliária." />
@@ -68,7 +69,7 @@ const Precos = () => {
           ))}
         </div>
       </div>
-    </>
+    <Layout/>
   );
 };
 
